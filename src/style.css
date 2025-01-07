@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+body {
+    font-family: "Space Mono",Arial;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #acb4ff;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header Styles */
+header {
+    background: #baf122;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+/* Navigation Styles */
+nav {
+    background: #444;
+    color: #fff;
+    padding: 5px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styles */
+.section {
+    padding: 20px;
+    margin: 20px 10px;
+    border: 1px solid #000;
+    position: relative;
+    background: #fff;
+    box-shadow: 5px 5px 0 #000;
+}
+
+.section h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.section ul {
+    list-style: square;
+    padding-left: 20px;
+}
+
+.section ul li {
+    margin-bottom: 10px;
+}
+
+/* Contact Section */
+#contact p a {
+    color: #444;
+    text-decoration: none;
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
